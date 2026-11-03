@@ -45,6 +45,7 @@ fn main() {
 }*/
 
 // Note: tuples type
+/*
 fn main() {
     let emp_info: (&str, u8) = ("Jim", 15);
 
@@ -55,4 +56,26 @@ fn main() {
         "your employer name: {} and age: {}",
         employee_name, employee_age
     );
+}
+*/
+
+
+// Note: Function how it work
+fn main() {
+    fun_work();
+    item_print(5);
+
+    let num1: u8 = 10;
+    let num2: u8 = 20;
+    let result: u8 = add(num1, num2);
+    print!("Summation = {result}")
+}
+fn fun_work() {
+    println!("This try to function how it works.");
+}
+fn item_print(item: u8) {
+    println!("my item number: {item}");
+}
+fn add(item1: u8, item2: u8) -> u8 {
+    return item1 + item2;
 }
