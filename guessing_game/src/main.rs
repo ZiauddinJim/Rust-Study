@@ -59,7 +59,7 @@ fn main() {
 }
 */
 
-
+/*
 // Note: Function how it work
 fn main() {
     fun_work();
@@ -78,4 +78,9 @@ fn item_print(item: u8) {
 }
 fn add(item1: u8, item2: u8) -> u8 {
     return item1 + item2;
+}
+ */
+
+fn main() {
+    println!("")
 }
